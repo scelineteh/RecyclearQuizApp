@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:text="Recyclear"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="59dp">
+
+        <TextView
+            android:text="Are you sure you want to exit?"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/yes_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/truebutton"
+                android:text="Yes"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/no_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/falsebutton"
+                android:text="No" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg"
+    android:orientation="horizontal"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:text="Recyclear"/>
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/homebutton"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="59dp">
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:padding="24dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/true_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/truebutton"
+                android:text="True"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/false_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/falsebutton"
+                android:text="False" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/next_button"
+            android:text="Next"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/previous_button"
+            android:text="Previous"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/done_button"
+            android:text="Done"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

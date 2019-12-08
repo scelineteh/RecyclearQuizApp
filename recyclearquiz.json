@@ -1,0 +1,44 @@
+{
+  "User" : {
+    "0112641784" : {
+      "name" : "Lim",
+      "password" : "1234"
+    },
+    "0121237195" : {
+      "name" : "Celine",
+      "password" : "1234"
+    },
+    "0124217195" : {
+      "name" : "Ghee",
+      "password" : "1234"
+    },
+    "0124567195" : {
+      "name" : "Tan",
+      "password" : "1234"
+    },
+    "0124657195" : {
+      "name" : "Teh",
+      "password" : "1234"
+    },
+    "0124737195" : {
+      "name" : "Kwok",
+      "password" : "1234"
+    },
+    "0124757195" : {
+      "name" : "Alice",
+      "password" : "1234"
+    },
+    "0124937195" : {
+      "name" : "Alice",
+      "password" : "1234"
+    },
+    "0988123344" : {
+      "name" : "Peter Parker",
+      "password" : "1234"
+    },
+    "0988123355" : {
+      "Name" : "EddyLEe",
+      "Password" : "1234"
+    }
+  }
+}

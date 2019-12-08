@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RecyclearQuiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_1">The colour of the three recycle bins are orange, blue and brown</string>
+    <string name="question_2">The orange bin is to recycle plastic and aluminium cans.</string>
+    <string name="question_3">The blue bin is to recycle glass.</string>
+    <string name="question_4">Recycling is not a good habit.</string>
+    <string name="question_5">The term 3R stands for reduce, reuse and recycle.</string>
+    <string name="question_6">The term "Go Green" stands for using an item once and then throwing it away.</string>
+    <string name="question_7">Most things at the recycling plant end up in the landfill anyway.</string>
+    <string name="question_8">Papers can be recycle.</string>
+    <string name="question_9">One of the benefit of recycling is to reduce pollution.</string>
+    <string name="question_10">There are 5 arrows in the typical recycling loop.</string>
+    <string name="exit_note">Are you sure you want to exit?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="bye_toast">Bye!</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recycle"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Recyclear"
+            android:textColor="@android:color/black"
+            android:textSize="80dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="This is a quiz app that will improve your knowledge on recycling." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sign_up_button"
+            android:background="@drawable/signup_in_button"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/sign_in_button"
+            android:background="@drawable/signup_in_button"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
